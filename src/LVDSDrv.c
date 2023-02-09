@@ -19,12 +19,19 @@ void LVDSDrv_PinPWDDNB(int level){
 }
 
 void LVDSDrv_Configuration(){
-
+    for(int i = 0 ; i < NUMBER_REG_ERROR){
+            //////////// send i2c /////////
+    }
 }
 
 int LVDSDrv_GetError(){
     int result = 0x0000;
     for(int i = 0 ; i < NUMBER_REG_ERROR){
+        ///////// send i2c////////
+
+        ///////// receive i2c////////
         
+        //////// check error ////////
+
     }
 }
