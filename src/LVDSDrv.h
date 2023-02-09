@@ -28,7 +28,21 @@ void Dio_WriteChannel(Dio_ChannelType channelId, Dio_LevelType level);
 ////////////////////////////////////
 
 #define LVDS_ADDRESS 0x02
+#define NUMBER_REG_ERR 4
+#define NUMBER_REG_CONFIG 3
 
+int tableConfig[NUMBER_REG_CONFIG][2] = {
+    {0x00, 0x01},
+    {0x01, 0x03},
+    {0x02, 0x04}
+};
+
+int tableRegErr[NUMBER_REG_ERR] = {
+    0x01,
+    0x02,
+    0x03,
+    0x04
+};
 
 void LVDSDrv_Init();
 int LVDSDrv_GetError();
