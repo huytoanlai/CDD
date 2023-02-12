@@ -27,7 +27,7 @@ void LVDSDrv_Configuration(){
 int LVDSDrv_GetError(){
     int result = 0x0000;
     for(int i = 0 ; i < NUMBER_REG_ERROR){
-        ///////// send i2c////////
+        ///////// send i2c without stop////////
 
         ///////// receive i2c////////
         
