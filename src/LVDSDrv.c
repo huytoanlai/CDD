@@ -30,7 +30,7 @@ int LVDSDrv_GetError(){
         ///////// send i2c without stop////////
 
         ///////// receive i2c////////
-        
+        //// send /////
         //////// check error ////////
 
     }
