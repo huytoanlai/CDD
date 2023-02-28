@@ -1497,3 +1497,759 @@ void * const INT_Vectors[] = {
 
 /* Start user code for adding. Do not edit comment generated here */
 /* End user code. Do not edit comment generated here */
+
+void eiint0{}
+/* Reserved; */
+void eiint1{}
+/* Reserved; */
+void eiint2{}
+/* Reserved; */
+void eiint3{}
+/* Reserved; */
+void eiint4{}
+/* Reserved; */
+void eiint5{}
+/* Reserved; */
+void eiint6{}
+/* Reserved; */
+void eiint7{}
+/* Interrupt for CH0 of TAUD0; */
+void eiint8{}
+/* Interrupt for CH2 of TAUD0; */
+void eiint9{}
+/* Interrupt for CH4 of TAUD0; */
+void eiint10{}
+/* Interrupt for CH6 of TAUD0; */
+void eiint11{}
+/* Interrupt for CH8 of TAUD0; */
+void eiint12{}
+/* Interrupt for CH10 of TAUD0; */
+void eiint13{}
+/* Interrupt for CH12 of TAUD0; */
+void eiint14{}
+/* Interrupt for CH14 of TAUD0; */
+void eiint15{}
+/* TAPA0 peak interrupt 0; */
+void eiint16{}
+/* TAPA0 valley interrupt 0; */
+void eiint17{}
+/* ADCA0 SG1 end interrupt; */
+void eiint18{}
+/* ADCA0 SG2 end interrupt; */
+void eiint19{}
+/* ADCA0 SG3 end interrupt; */
+void eiint20{}
+/* Dedicated interrupt for on-chip debug function; */
+void eiint21{}
+/* CAN global error interrupt; */
+void eiint22{}
+/* CAN receive FIFO interrupt; */
+void eiint23{}
+/* CAN0 error interrupt; */
+void eiint24{}
+/* CAN0 transmit/receive FIFO receive complete interrupt; */
+void eiint25{}
+/* CAN0 transmit interrupt; */
+void eiint26{}
+/* CSIG0 communication status interrupt; */
+void eiint27{}
+/* CSIG0 receive status interrupt; */
+void eiint28{}
+/* CSIH0 communication status interrupt; */
+void eiint29{}
+/* CSIH0 receive status interrupt; */
+void eiint30{}
+/* CSIH0 communication error interrupt; */
+void eiint31{}
+/* CSIH0 job completion interrupt; */
+void eiint32{}
+/* RLIN30 interrupt; */
+void eiint33{}
+/* RLIN30 transmit interrupt; */
+void eiint34{}
+/* RLIN30 receive complete interrupt; */
+void eiint35{}
+/* RLIN30 status interrupt; */
+void eiint36{}
+/* External interrupt; */
+void eiint37{}
+/* External interrupt; */
+void eiint38{}
+/* External interrupt; */
+void eiint39{}
+/* WDTA0 75% interrupt; */
+void eiint40{}
+/* WDTA1 75% interrupt; */
+void eiint41{}
+/* Reserved; */
+void eiint42{}
+/* External interrupt; */
+void eiint43{}
+/* External interrupt; */
+void eiint44{}
+/* External interrupt; */
+void eiint45{}
+/* External interrupt; */
+void eiint46{}
+/* External interrupt; */
+void eiint47{}
+/* Interrupt for TAUD0 channel 1; */
+void eiint48{}
+/* Interrupt for TAUD0 channel 3; */
+void eiint49{}
+/* Interrupt for TAUD0 channel 5; */
+void eiint50{}
+/* Interrupt for TAUD0 channel 7; */
+void eiint51{}
+/* Interrupt for TAUD0 channel 9; */
+void eiint52{}
+/* Interrupt for TAUD0 channel 11; */
+void eiint53{}
+/* Interrupt for TAUD0 channel 13; */
+void eiint54{}
+/* Interrupt for TAUD0 channel 15; */
+void eiint55{}
+/* ADCA0 error interrupt; */
+void eiint56{}
+/* CSIG0 communication error interrupt; */
+void eiint57{}
+/* RLIN20 interrupt; */
+void eiint58{}
+/* RLIN21 interrupt; */
+void eiint59{}
+/* DMA00 transfer completion; */
+void eiint60{}
+/* DMA01 transfer completion; */
+void eiint61{}
+/* DMA02 transfer completion; */
+void eiint62{}
+/* DMA03 transfer completion; */
+void eiint63{}
+/* DMA04 transfer completion; */
+void eiint64{}
+/* DMA05 transfer completion; */
+void eiint65{}
+/* DMA06 transfer completion; */
+void eiint66{}
+/* DMA07 transfer completion; */
+void eiint67{}
+/* DMA10 transfer completion; */
+void eiint68{}
+/* DMA11 transfer completion; */
+void eiint69{}
+/* DMA12 transfer completion; */
+void eiint70{}
+/* DMA13 transfer completion; */
+void eiint71{}
+/* DMA14 transfer completion; */
+void eiint72{}
+/* DMA15 transfer completion; */
+void eiint73{}
+/* DMA16 transfer completion; */
+void eiint74{}
+/* DMA17 transfer completion; */
+void eiint75{}
+/* RIIC0 transmit data empty interrupt; */
+void eiint76{}
+/* RIIC0 receive error/event interrupt; */
+void eiint77{}
+/* RIIC0 receive complete interrupt; */
+void eiint78{}
+/* RIIC0 transmit complete interrupt; */
+void eiint79{}
+/* Interrupt for TAUJ0 channel 0; */
+void eiint80{}
+/* Interrupt for TAUJ0 channel 1; */
+void eiint81{}
+/* Interrupt for TAUJ0 channel 2; */
+void eiint82{}
+/* Interrupt for TAUJ0 channel 3; */
+void eiint83{}
+/* OSTM0 interrupt; */
+void eiint84{}
+/* ENCA0 overflow interrupt; */
+void eiint85{}
+/* ENCA0 underflow interrupt; */
+void eiint86{}
+/* ENCA0 match/capture interrupt 0; */
+void eiint87{}
+/* ENCA0 match/capture interrupt 1; */
+void eiint88{}
+/* ENCA0 encoder clear interrupt; */
+void eiint89{}
+/* KR0 key interrupt; */
+void eiint90{}
+/* PWSA0 queue full interrupt; */
+void eiint91{}
+/* PWGA interrupt group 00 (PWGA0 to PWGA31); */
+void eiint92{}
+/* PWGA interrupt group 01 (PWGA32 to PWGA63); */
+void eiint93{}
+/* Reserved; */
+void eiint94{}
+/* Reserved; */
+void eiint95{}
+/* Reserved; */
+void eiint96{}
+/* Reserved; */
+void eiint97{}
+/* Reserved; */
+void eiint98{}
+/* Reserved; */
+void eiint99{}
+/* Reserved; */
+void eiint100{}
+/* Reserved; */
+void eiint101{}
+/* Reserved; */
+void eiint102{}
+/* Reserved; */
+void eiint103{}
+/* Reserved; */
+void eiint104{}
+/* Reserved; */
+void eiint105{}
+/* Reserved; */
+void eiint106{}
+/* Reserved; */
+void eiint107{}
+/* Reserved; */
+void eiint108{}
+/* Reserved; */
+void eiint109{}
+/* Flash sequencer end error interrupt; */
+void eiint110{}
+/* Flash sequencer end interrupt; */
+void eiint111{}
+/* LPS0 port polling end interrupt; */
+void eiint112{}
+/* CAN1 error interrupt; */
+void eiint113{}
+/* CAN1 transmit/receive FIFO receive complete interrupt; */
+void eiint114{}
+/* CAN1 transmit interrupt; */
+void eiint115{}
+/* CSIH1 communication status interrupt; */
+void eiint116{}
+/* CSIH1 receive status interrupt; */
+void eiint117{}
+/* CSIH1 communication error interrupt; */
+void eiint118{}
+/* CSIH1 job completion interrupt; */
+void eiint119{}
+/* RLIN31 interrupt; */
+void eiint120{}
+/* RLIN31 transmit interrupt; */
+void eiint121{}
+/* RLIN31 receive complete interrupt; */
+void eiint122{}
+/* RLIN31 status interrupt; */
+void eiint123{}
+/* Reserved; */
+void eiint124{}
+/* Reserved; */
+void eiint125{}
+/* Reserved; */
+void eiint126{}
+/* Reserved; */
+void eiint127{}
+/* External interrupt; */
+void eiint128{}
+/* External interrupt; */
+void eiint129{}
+/* External interrupt; */
+void eiint130{}
+/* External interrupt; */
+void eiint131{}
+/* CSIH2 communication status interrupt; */
+void eiint132{}
+/* CSIH2 receive status interrupt; */
+void eiint133{}
+/* CSIH2 communication error interrupt; */
+void eiint134{}
+/* CSIH2 job completion interrupt; */
+void eiint135{}
+/* Reserved; */
+void eiint136{}
+/* Reserved; */
+void eiint137{}
+/* Reserved; */
+void eiint138{}
+/* Reserved; */
+void eiint139{}
+/* Reserved; */
+void eiint140{}
+/* Reserved; */
+void eiint141{}
+/* Interrupt for TAUB0 channel 0; */
+void eiint142{}
+/* Interrupt for TAUB0 channel 1; */
+void eiint143{}
+/* Interrupt for TAUB0 channel 2; */
+void eiint144{}
+/* Interrupt for TAUB0 channel 3; */
+void eiint145{}
+/* Interrupt for TAUB0 channel 4; */
+void eiint146{}
+/* Interrupt for TAUB0 channel 5; */
+void eiint147{}
+/* Interrupt for TAUB0 channel 6; */
+void eiint148{}
+/* Interrupt for TAUB0 channel 7; */
+void eiint149{}
+/* Interrupt for TAUB0 channel 8; */
+void eiint150{}
+/* Interrupt for TAUB0 channel 9; */
+void eiint151{}
+/* Interrupt for TAUB0 channel 10; */
+void eiint152{}
+/* Interrupt for TAUB0 channel 11; */
+void eiint153{}
+/* Interrupt for TAUB0 channel 12; */
+void eiint154{}
+/* Interrupt for TAUB0 channel 13; */
+void eiint155{}
+/* Interrupt for TAUB0 channel 14; */
+void eiint156{}
+/* Interrupt for TAUB0 channel 15; */
+void eiint157{}
+/* CSIH3 communication status interrupt; */
+void eiint158{}
+/* CSIH3 receive status interrupt; */
+void eiint159{}
+/* CSIH3 communication error interrupt; */
+void eiint160{}
+/* CSIH3 job completion interrupt; */
+void eiint161{}
+/* RLIN22 interrupt; */
+void eiint162{}
+/* Reserved; */
+void eiint163{}
+/* RLIN32 interrupt; */
+void eiint164{}
+/* RLIN32 transmit interrupt; */
+void eiint165{}
+/* RLIN32 receive complete interrupt; */
+void eiint166{}
+/* RLIN32 status interrupt; */
+void eiint167{}
+/* Interrupt for TAUJ1 channel 0; */
+void eiint168{}
+/* Interrupt for TAUJ1 channel 1; */
+void eiint169{}
+/* Interrupt for TAUJ1 channel 2; */
+void eiint170{}
+/* Interrupt for TAUJ1 channel 3; */
+void eiint171{}
+/* Reserved; */
+void eiint172{}
+/* FIFO transfer interrupt; */
+void eiint173{}
+/* FIFO transfer warning interrupt; */
+void eiint174{}
+/* Input queue empty interrupt; */
+void eiint175{}
+/* Input queue full interrupt; */
+void eiint176{}
+/* Output transfer end interrupt; */
+void eiint177{}
+/* Output transfer warning interrupt; */
+void eiint178{}
+/* FlexRay0 interrupt; */
+void eiint179{}
+/* FlexRay1 interrupt; */
+void eiint180{}
+/* Timer 0 interrupt; */
+void eiint181{}
+/* Timer 1 interrupt; */
+void eiint182{}
+/* Timer 2 interrupt; */
+void eiint183{}
+/* Reserved; */
+void eiint184{}
+/* Reserved; */
+void eiint185{}
+/* Reserved; */
+void eiint186{}
+/* Reserved; */
+void eiint187{}
+/* Reserved; */
+void eiint188{}
+/* Reserved; */
+void eiint189{}
+/* Reserved; */
+void eiint190{}
+/* Reserved; */
+void eiint191{}
+/* Reserved; */
+void eiint192{}
+/* Reserved; */
+void eiint193{}
+/* Reserved; */
+void eiint194{}
+/* Reserved; */
+void eiint195{}
+/* Reserved; */
+void eiint196{}
+/* Reserved; */
+void eiint197{}
+/* Reserved; */
+void eiint198{}
+/* Reserved; */
+void eiint199{}
+/* Reserved; */
+void eiint200{}
+/* Reserved; */
+void eiint201{}
+/* Reserved; */
+void eiint202{}
+/* Reserved; */
+void eiint203{}
+/* Reserved; */
+void eiint204{}
+/* External interrupt; */
+void eiint205{}
+/* External interrupt; */
+void eiint206{}
+/* Reserved; */
+void eiint207{}
+/* Reserved; */
+void eiint208{}
+/* RTCA0 1-second interval interrupt; */
+void eiint209{}
+/* RTCA0 alarm interrupt; */
+void eiint210{}
+/* RTCA0 fixed interval interrupt; */
+void eiint211{}
+/* Reserved; */
+void eiint212{}
+/* Reserved; */
+void eiint213{}
+/* Reserved; */
+void eiint214{}
+/* Reserved; */
+void eiint215{}
+/* Reserved; */
+void eiint216{}
+/* CAN2 error interrupt; */
+void eiint217{}
+/* CAN2 transmit/receive FIFO receive complete interrupt; */
+void eiint218{}
+/* CAN2 transmit interrupt; */
+void eiint219{}
+/* CAN3 error interrupt; */
+void eiint220{}
+/* CAN3 transmit/receive FIFO receive complete interrupt; */
+void eiint221{}
+/* CAN3 transmit interrupt; */
+void eiint222{}
+/* Reserved; */
+void eiint223{}
+/* Reserved; */
+void eiint224{}
+/* Reserved; */
+void eiint225{}
+/* Reserved; */
+void eiint226{}
+/* Reserved; */
+void eiint227{}
+/* Reserved; */
+void eiint228{}
+/* Reserved; */
+void eiint229{}
+/* Reserved; */
+void eiint230{}
+/* Reserved; */
+void eiint231{}
+/* Reserved; */
+void eiint232{}
+/* Reserved; */
+void eiint233{}
+/* Reserved; */
+void eiint234{}
+/* Reserved; */
+void eiint235{}
+/* Reserved; */
+void eiint236{}
+/* Reserved; */
+void eiint237{}
+/* Reserved; */
+void eiint238{}
+/* Reserved; */
+void eiint239{}
+/* RIIC1 transmit data empty interrupt; */
+void eiint240{}
+/* RIIC1 receive error/event interrupt; */
+void eiint241{}
+/* RIIC1 receive complete interrupt; */
+void eiint242{}
+/* RIIC1 transmit complete interrupt; */
+void eiint243{}
+/* Reserved; */
+void eiint244{}
+/* Reserved; */
+void eiint245{}
+/* Reserved; */
+void eiint246{}
+/* Reserved; */
+void eiint247{}
+/* Reserved; */
+void eiint248{}
+/* Reserved; */
+void eiint249{}
+/* Reserved; */
+void eiint250{}
+/* Reserved; */
+void eiint251{}
+/* Reserved; */
+void eiint252{}
+/* Reserved; */
+void eiint253{}
+/* Reserved; */
+void eiint254{}
+/* Reserved; */
+void eiint255{}
+/* Reserved; */
+void eiint256{}
+/* Reserved; */
+void eiint257{}
+/* Reserved; */
+void eiint258{}
+/* Reserved; */
+void eiint259{}
+/* Reserved; */
+void eiint260{}
+/* Reserved; */
+void eiint261{}
+/* Reserved; */
+void eiint262{}
+/* Reserved; */
+void eiint263{}
+/* Reserved; */
+void eiint264{}
+/* Reserved; */
+void eiint265{}
+/* Reserved; */
+void eiint266{}
+/* Reserved; */
+void eiint267{}
+/* Reserved; */
+void eiint268{}
+/* Reserved; */
+void eiint269{}
+/* Reserved; */
+void eiint270{}
+/* Reserved; */
+void eiint271{}
+/* CAN4 error interrupt; */
+void eiint272{}
+/* CAN4 transmit/receive FIFO receive complete interrupt; */
+void eiint273{}
+/* CAN4 transmit interrupt; */
+void eiint274{}
+/* Reserved; */
+void eiint275{}
+/* Reserved; */
+void eiint276{}
+/* Interrupt for TAUJ2 channel 0; */
+void eiint277{}
+/* Interrupt for TAUJ2 channel 1; */
+void eiint278{}
+/* Interrupt for TAUJ2 channel 2; */
+void eiint279{}
+/* Interrupt for TAUJ2 channel 3; */
+void eiint280{}
+/* Interrupt for TAUJ3 channel 0; */
+void eiint281{}
+/* Interrupt for TAUJ3 channel 1; */
+void eiint282{}
+/* Interrupt for TAUJ3 channel 2; */
+void eiint283{}
+/* Interrupt for TAUJ3 channel 3; */
+void eiint284{}
+/* Reserved; */
+void eiint285{}
+/* Reserved; */
+void eiint286{}
+/* CAN5 error interrupt; */
+void eiint287{}
+/* CAN5 transmit/receive FIFO receive complete interrupt; */
+void eiint288{}
+/* CAN5 transmit interrupt; */
+void eiint289{}
+/* Reserved; */
+void eiint290{}
+/* Reserved; */
+void eiint291{}
+/* Reserved; */
+void eiint292{}
+/* Reserved; */
+void eiint293{}
+/* Reserved; */
+void eiint294{}
+/* Reserved; */
+void eiint295{}
+/* Reserved; */
+void eiint296{}
+/* Reserved; */
+void eiint297{}
+/* DMA20 transfer completion; */
+void eiint298{}
+/* DMA21 transfer completion; */
+void eiint299{}
+/* DMA22 transfer completion; */
+void eiint300{}
+/* DMA23 transfer completion; */
+void eiint301{}
+/* DMA24 transfer completion; */
+void eiint302{}
+/* DMA25 transfer completion; */
+void eiint303{}
+/* DMA26 transfer completion; */
+void eiint304{}
+/* DMA27 transfer completion; */
+void eiint305{}
+/* DMA30 transfer completion; */
+void eiint306{}
+/* DMA31 transfer completion; */
+void eiint307{}
+/* DMA32 transfer completion; */
+void eiint308{}
+/* DMA33 transfer completion; */
+void eiint309{}
+/* DMA34 transfer completion; */
+void eiint310{}
+/* DMA35 transfer completion; */
+void eiint311{}
+/* DMA36 transfer completion; */
+void eiint312{}
+/* DMA37 transfer completion; */
+void eiint313{}
+/* Reserved; */
+void eiint314{}
+/* Reserved; */
+void eiint315{}
+/* Reserved; */
+void eiint316{}
+/* Reserved; */
+void eiint317{}
+/* Reserved; */
+void eiint318{}
+/* Reserved; */
+void eiint319{}
+/* Reserved; */
+void eiint320{}
+/* CAN6 error interrupt; */
+void eiint321{}
+/* CAN6 transmit/receive FIFO receive complete interrupt; */
+void eiint322{}
+/* CAN6 transmit interrupt; */
+void eiint323{}
+/* Reserved; */
+void eiint324{}
+/* Reserved; */
+void eiint325{}
+/* Reserved; */
+void eiint326{}
+/* Reserved; */
+void eiint327{}
+/* Reserved; */
+void eiint328{}
+/* Reserved; */
+void eiint329{}
+/* Reserved; */
+void eiint330{}
+/* Reserved; */
+void eiint331{}
+/* CAN7 error interrupt; */
+void eiint332{}
+/* CAN7 transmit/receive FIFO receive complete interrupt; */
+void eiint333{}
+/* CAN7 transmit interrupt; */
+void eiint334{}
+/* Reserved; */
+void eiint335{}
+/* Reserved; */
+void eiint336{}
+/* Reserved; */
+void eiint337{}
+/* Reserved; */
+void eiint338{}
+/* Reserved; */
+void eiint339{}
+/* Reserved; */
+void eiint340{}
+/* Reserved; */
+void eiint341{}
+/* Reserved; */
+void eiint342{}
+/* Reserved; */
+void eiint343{}
+/* Reserved; */
+void eiint344{}
+/* Reserved; */
+void eiint345{}
+/* Reserved; */
+void eiint346{}
+/* Reserved; */
+void eiint347{}
+/* Reserved; */
+void eiint348{}
+/* Status interrupt for RSENT1; */
+void eiint349{}
+/* Receive interrupt for RSENT1; */
+void eiint350{}
+/* Reserved; */
+void eiint351{}
+/* Reserved; */
+void eiint352{}
+/* Reserved; */
+void eiint353{}
+/* Reserved; */
+void eiint354{}
+/* Reserved; */
+void eiint355{}
+/* LPS0 digital port error interrupt; */
+void eiint356{}
+/* LPS0 analog port error interrupt; */
+void eiint357{}
+/* Reserved; */
+void eiint358{}
+/* Reserved; */
+void eiint359{}
+/* Reserved; */
+void eiint360{}
+/* Reserved; */
+void eiint361{}
+/* Reserved; */
+void eiint362{}
+/* Reserved; */
+void eiint363{}
+/* Reserved; */
+void eiint364{}
+/* Reserved; */
+void eiint365{}
+/* Reserved; */
+void eiint366{}
+/* Reserved; */
+void eiint367{}
+/* Reserved; */
+void eiint368{}
+/* Reserved; */
+void eiint369{}
+/* Reserved; */
+void eiint370{}
+/* Reserved; */
+void eiint371{}
+/* Reserved; */
+void eiint372{}
+/* Reserved; */
+void eiint373{}
+/* Reserved; */
+void eiint374{}
+/* Reserved; */
+void eiint375{}
+/* interrupt for GRZF; */
+void eiint376{}
+
+
